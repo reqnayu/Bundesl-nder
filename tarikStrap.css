@@ -1,0 +1,69 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    user-select: none;
+}
+
+body {
+    margin: 0;
+}
+
+input, button, a, textarea {
+    all: unset;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+.gc {
+    display: grid;
+    place-items: center;
+}
+
+.fr {
+    display: flex;
+}
+
+.fc {
+    display: flex;
+    flex-direction: column;
+}
+
+.fr-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fr-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fc-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.v-none {
+    visibility: hidden !important;
+}
+
+.o-none {
+    opacity: 0 !important;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
